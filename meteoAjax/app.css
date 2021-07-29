@@ -1,0 +1,66 @@
+.clear{
+    background-image: url("https://i0.wp.com/www.kafunel.com/wp-content/uploads/2020/02/Pr%C3%A9dominance-dun-ciel-d%C3%A9gag%C3%A91.jpg?fit=1200%2C675&ssl=1");
+}
+.clouds{
+    background-image: url("https://siena.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2019/01/06/node_328692/1157770/public/2019/01/06/B9718136814Z.1_20190106071757_000%2BGUQCNF3B0.1-0.jpg?itok=2Qbjihxt1546755487");
+    
+}
+
+.rain {
+    background-image: url("https://cdn.radiofrance.fr/s3/cruiser-production/2021/02/2671cc34-2e33-4541-9270-927f0786fe24/870x489_gettyimages-1190433687.jpg");
+}
+
+.snow {
+    background-image: url("https://img.freepik.com/vecteurs-libre/neige-noel-chute-flocons-neige-fond-bleu-chute-neige_302982-1439.jpg?size=626&ext=jpg&ga=GA1.2.1448717673.1625529600");
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color:#fff;
+    text-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 3em;
+    padding-left: 150px;
+}    
+
+i.wi {
+    font-size: 5em;
+    line-height: 3em;
+    
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.tooltip {
+    opacity: 0;
+    position:relative;   
+    color: #FFF;
+    background-color: #222;
+    top:-100px;
+    left: -140px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12px;
+    transition: opacity .3s, top .5s;
+}
+
+h1:hover .tooltip {
+    top: -60px;
+    opacity: 1;
+   
+}
